@@ -1,0 +1,11 @@
+print('enter a number:')
+x = int(input());
+
+if(x%3==0):
+	print("Zip")
+elif(x%5==0):
+	print("Zap")
+elif(x%3==0 and x%5==0):
+	print("Zoom")
+else:
+	print("Invalid")
